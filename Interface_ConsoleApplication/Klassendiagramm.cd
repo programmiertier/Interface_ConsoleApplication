@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="Interface_ConsoleApplication.Abgeleitet">
-    <Position X="6.25" Y="0.5" Width="1.5" />
+    <Position X="4.25" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>Abgeleitet.cs</FileName>
@@ -22,17 +22,33 @@
       <FileName>Super2.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Interface_ConsoleApplication.AbgeleitetVonAbgeleitet" Collapsed="true">
-    <Position X="8" Y="1.25" Width="1.5" />
+  <Class Name="Interface_ConsoleApplication.AbgeleitetVonAbgeleitet">
+    <Position X="4.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbgeleitetVonAbgeleitet.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Interface_ConsoleApplication.AndereAbleitung">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AndereAbleitung.cs</FileName>
+      <NewMemberFileName>andereAbleitung.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Interface_ConsoleApplication.AbgeleitetVonAndereAbleitung">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbgeleitetVonAndereAbleitung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="Interface_ConsoleApplication.IAnzeige">
     <Position X="4.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>IAnzeige.cs</FileName>
     </TypeIdentifier>
   </Interface>

@@ -5,20 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-
 namespace Interface_ConsoleApplication
 {
-    public class Abgeleitet : IAnzeige
+    public class AndereAbleitung : IAnzeige
     {
-        public void Anzeige(string s)
+        void IAnzeige.Anzeige(string s)
         {
-            WriteLine("Die Anzeige: {0}", s);
+            WriteLine("Ich könnte den string zeigen, will aber nicht");
         }
 
-        public void Entladen()
+        void Entladen()
         {
             throw new NotImplementedException();
         }
-
     }
 }

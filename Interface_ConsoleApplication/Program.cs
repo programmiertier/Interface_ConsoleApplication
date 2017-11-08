@@ -20,6 +20,10 @@ namespace Interface_ConsoleApplication
             aVona.Anzeige("Ich habe das Interface von meiner Masterklasse geerbt");
 
             ReadLine();
+
+            AbgeleitetVonAndereAbleitung aVonAA = new AbgeleitetVonAndereAbleitung();
+
+            // aVonAA.      // Hat das Anzeige nicht!
         }
     }
 }

@@ -11,8 +11,11 @@ namespace Interface_ConsoleApplication
     {
         // nur die Methoden erklärt, nicht implementiert
 
-                // der Vertrag, was implementierende Klassen umsetzen müssen
-
+        void Anzeige(string s);        // der Vertrag, was implementierende Klassen umsetzen müssen
+                                       // Konventionsgemäß wird der implementierung von interface ein großes I voran gestellt
+                                       // Methode vom Interface auch groß, damit man weiß, dass es aus dem Interface stammt
+        
+        
     }
 
 }
