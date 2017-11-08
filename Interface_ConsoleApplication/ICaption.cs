@@ -7,11 +7,13 @@ using static System.Console;
 
 namespace Interface_ConsoleApplication
 {
-    class Program
+    public interface ICaption
     {
-        static void Main(string[] args)
-        {
+        // nur die Methoden erklärt, nicht implementiert
 
-        }
+        void Anzeigen();        // der Vertrag, was implementierende Klassen umsetzen müssen
+
+
+
     }
 }
