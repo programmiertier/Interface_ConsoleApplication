@@ -7,13 +7,8 @@ using static System.Console;
 
 namespace Interface_ConsoleApplication
 {
-    public interface ICaption
+    class AbgeleitetVonAbgeleitet : Abgeleitet
     {
-        // nur die Methoden erklärt, nicht implementiert
-
-        void Anzeigen();        // der Vertrag, was implementierende Klassen umsetzen müssen
-
-
 
     }
 }

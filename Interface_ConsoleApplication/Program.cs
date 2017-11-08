@@ -11,7 +11,15 @@ namespace Interface_ConsoleApplication
     {
         static void Main(string[] args)
         {
+            Abgeleitet a1 = new Abgeleitet();
+            a1.Anzeige("Ich habe implementiert");
 
+            ReadLine();
+
+            AbgeleitetVonAbgeleitet aVona = new AbgeleitetVonAbgeleitet();
+            aVona.Anzeige("Ich habe das Interface von meiner Masterklasse geerbt");
+
+            ReadLine();
         }
     }
 }
