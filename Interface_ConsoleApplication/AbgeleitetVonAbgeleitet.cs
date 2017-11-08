@@ -7,7 +7,7 @@ using static System.Console;
 
 namespace Interface_ConsoleApplication
 {
-    class AbgeleitetVonAbgeleitet : Abgeleitet
+    class AbgeleitetVonAbgeleitet : Abgeleitet, IAbzaehlen
     {
 
     }

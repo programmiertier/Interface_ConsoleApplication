@@ -16,4 +16,10 @@ namespace Interface_ConsoleApplication
                                         // Methode vom Interface auch groß, damit man weiß, dass es aus dem Interface stammt
         void Entladen();                // wenn aus IAnzeige gelöscht, wird überall die Implementierung angemäkelt!
     }
+
+    interface IAbzaehlen
+    {
+        void Anzeige(string s);
+        void Entladen();
+    }
 }

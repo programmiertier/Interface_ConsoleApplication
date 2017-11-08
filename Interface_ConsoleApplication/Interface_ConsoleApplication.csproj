@@ -47,7 +47,7 @@
     <Compile Include="AbgeleitetVonAbgeleitet.cs" />
     <Compile Include="AbgeleitetVonAndereAbleitung.cs" />
     <Compile Include="AndereAbleitung.cs" />
-    <Compile Include="IAnzeige.cs" />
+    <Compile Include="Interface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

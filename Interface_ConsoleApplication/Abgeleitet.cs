@@ -8,7 +8,7 @@ using static System.Console;
 
 namespace Interface_ConsoleApplication
 {
-    public class Abgeleitet : IAnzeige
+    public class Abgeleitet : IAnzeige, IAbzaehlen
     {
         public void Anzeige(string s)
         {
@@ -17,7 +17,7 @@ namespace Interface_ConsoleApplication
 
         public void Entladen()
         {
-            throw new NotImplementedException();
+
         }
 
     }

@@ -7,16 +7,25 @@ using static System.Console;
 
 namespace Interface_ConsoleApplication
 {
-    public class AndereAbleitung : IAnzeige
+    public class AndereAbleitung : IAnzeige, IAbzaehlen
     {
         void IAnzeige.Anzeige(string s)
         {
             WriteLine("Ich könnte den string zeigen, will aber nicht");
         }
 
-        void Entladen()
+        void IAnzeige.Entladen()
         {
             throw new NotImplementedException();
+        }
+
+        void IAbzaehlen.Anzeige(string s)
+        {
+
+        }
+        void IAbzaehlen.Entladen()
+        {
+
         }
     }
 }

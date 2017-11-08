@@ -12,18 +12,25 @@ namespace Interface_ConsoleApplication
         static void Main(string[] args)
         {
             Abgeleitet a1 = new Abgeleitet();
-            a1.Anzeige("Ich habe implementiert");
+            ((IAnzeige)a1).Anzeige("Ich habe implementiert");       // cast auf a1 geht! a1.IAnzeige.Anzeige funktioniert nicht
 
             ReadLine();
 
             AbgeleitetVonAbgeleitet aVona = new AbgeleitetVonAbgeleitet();
-            aVona.Anzeige("Ich habe das Interface von meiner Masterklasse geerbt");
+            ((IAbzaehlen)aVona).Anzeige("Ich habe das Interface von meiner Masterklasse geerbt");
+
 
             ReadLine();
 
             AbgeleitetVonAndereAbleitung aVonAA = new AbgeleitetVonAndereAbleitung();
 
+
+            List<int> intList = new List<int>();
+
+
             // aVonAA.      // Hat das Anzeige nicht!
+
+            
         }
     }
 }
